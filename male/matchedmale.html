@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        
+        body {
+            background: rgb(12, 12, 12);
+        }
+        
+        .container {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+        
+        .container span {
+            display: block;
+        }
+        
+        .text1 {
+            color: white;
+            font-size: 70px;
+            font-weight: 700;
+            letter-spacing: 8px;
+            margin-bottom: 20px;
+            background: black;
+            position: relative;
+            animation: text 3s 1;
+        }
+        
+        .text2 {
+            font-size: 30px;
+            color: #008000;
+            font-family: Georgia, serif;
+        }
+        
+        @keyframes text {
+            0% {
+                color: black;
+                margin-bottom: -40px;
+            }
+            30% {
+                letter-spacing: 25px;
+                margin-bottom: -40px;
+            }
+            85% {
+                letter-spacing: 8px;
+                margin-bottom: -40px;
+            }
+        }
+        
+        .lower-container .btn1,
+        .btn2 {
+            padding: 12px 20px;
+            background: hwb(27 35% 7%);
+            border: none;
+            color: white;
+            border-radius: 30px;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all .3s ease-in;
+        }
+        
+        .lower-container .btn2 {
+            padding: 12px 20px;
+            background: hwb(27 35% 7%);
+            border: none;
+            color: white;
+            border-radius: 30px;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all .3s ease-in;
+        }
+        
+        .lower-container .btn2:hover {
+            background: transparent;
+            background-color: white;
+            color: black;
+            border: 2px solid white;
+        }
+        
+        .lower-container .btn1:hover {
+            background: transparent;
+            background-color: white;
+            color: black;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://i.pinimg.com/originals/29/2e/06/292e06a3acc988f9842ad0980034ad0e.gif" width="100%" height="0%">
+    <div class="container">
+        <div class="row">
+            <span class="text1">Matched</span>
+
+            <div class="lower-container">
+
+                <a href="chatmale.html" class="btn1" onclick="alert('Do you want to chat?')">CHAT</a> &nbsp;
+                <a href="male.html" class="btn2" onclick="alert('Do you want to go next?')">NEXT</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile Card</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: #f1f1f1;
+        font-family: arial;
+        box-sizing: border-box;
+    }
+    
+    .card-container {
+        width: 600px;
+        height: 680px;
+        background: #FFF;
+        border-radius: 6px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 1px 10px 1px #000;
+        overflow: hidden;
+        display: inline-block;
+    }
+    
+    .upper-container {
+        height: 150px;
+        background: hwb(27 35% 7%);
+    }
+    
+    .image-container {
+        background: white;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        padding: 5px;
+        transform: translate(100px, 100px);
+    }
+    
+    .image-container img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    
+    .lower-container {
+        height: 280px;
+        background: #FFF;
+        padding: 20px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    
+    .lower-container h3,
+    h4 {
+        box-sizing: border-box;
+        line-height: .6;
+        font-weight: lighter;
+    }
+    
+    .lower-container h4 {
+        color: hwb(27 35% 7%);
+        opacity: .6;
+        font-weight: bold;
+    }
+    
+    .lower-container p {
+        font-size: 16px;
+        color: gray;
+        margin-bottom: 30px;
+    }
+    
+    .lower-container .btn1,
+    .btn2 {
+        padding: 12px 20px;
+        background: hwb(27 35% 7%);
+        border: none;
+        color: white;
+        border-radius: 30px;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all .3s ease-in;
+    }
+    
+    .lower-container .btn2:hover {
+        background: transparent;
+        background-color: red;
+        color: black;
+        border: 2px solid red;
+    }
+    
+    .lower-container .btn1:hover {
+        background: transparent;
+        background-color: green;
+        color: black;
+        border: 2px solid green;
+    }
+    
+    .fab {
+        color: grey;
+        font-size: 24px;
+        margin: 15px;
+        cursor: pointer;
+    }
+    
+    .fab:hover {
+        color: black;
+    }
+    
+    li {
+        padding: 10px;
+        color: #524b4b;
+    }
+</style>
+
+<body style="font-family:lucida console ;">
+
+    <div class="card-container">
+
+        <div class="upper-container">
+            <div class="image-container">
+                <img src="ranveer.jpg">
+            </div>
+        </div>
+
+        <div class="lower-container">
+            <div>
+                <h3>Ranveer Singh</h3>
+                <h4>Actor</h4>
+            </div>
+            <div>
+                <p>“A geek at heart, I like everything from board games, comics, books and movies to technology, science and various different franchises.” </p>
+            </div>
+            <div>
+                <center>
+                    <table>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Coffee <i class="fa-solid fa-mug-saucer"></i></li>
+                                    <li>Apple <i class="fa-brands fa-apple"></i></li>
+                                    <li>Running <i class="fa-solid fa-person-running"></i></li>
+                                    <li>Basketball <i class="fa-solid fa-basketball"></i></li>
+
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Bitcoin <i class="fa-brands fa-bitcoin"></i></li>
+                                    <li>Cycle <i class="fa-solid fa-bicycle"></i></li>
+                                    <li>Food <i class="fa-solid fa-bowl-food"></i></li>
+                                    <li>Dog <i class="fa-solid fa-dog"></i></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+            </div>
+            <div class="card-social-icons">
+
+
+                <i class="fab fa-instagram"></i> &nbsp;
+                <i class="fab fa-youtube"></i> &nbsp;
+                <i class="fab fa-facebook-square"></i>
+
+            </div>
+            <div>
+                <br>
+                <br>
+                <a href="matchedmale.html" class="btn1">YES</a> &nbsp;
+                <a href="male.html" class="btn2">NO&nbsp;</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

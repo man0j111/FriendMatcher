@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" style="border: 20px solid white;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallary</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("gradienta-J6LMHbdW1k8-unsplash.jpg")
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .image-div {
+            border: 2px solid black;
+            width: 400px;
+            height: 300px;
+            padding: 15px;
+            border-radius: 15px;
+            float: left;
+            margin: 5px;
+            align-items: center;
+            box-shadow: 0 0 15px 3px whitesmoke;
+        }
+        
+        .image-div:hover {
+            box-shadow: 0 0 15px 3px black;
+            transition: 0.7s;
+        }
+        
+        .zoom {
+            width: 200px;
+            height: 250px;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 0 15px 3px white;
+            transition: 0.7s;
+        }
+        
+        .zoom img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 15px;
+            transition: 1s;
+            cursor: pointer;
+        }
+        
+        .zoom:hover img {
+            transform: scale(1.2, 1.2);
+            box-shadow: 0 0 15px 3px;
+            transition: 0.7s;
+        }
+        
+        .desc {
+            padding: 10px;
+        }
+        
+        .zoom:hover div {
+            transform: scale(1.2, 1.2);
+            transition: 0.7s;
+        }
+        
+        div {
+            color: aliceblue;
+            box-shadow: white;
+        }
+        
+        span {
+            border-radius: 10px;
+            border: solid black 2px;
+        }
+        
+        .o {
+            border: none;
+        }
+        /*table{
+            box-shadow: 0 0 15px 3px white;
+        }*/
+        
+        .btn2:hover {
+            background: transparent;
+            background-color: green;
+            color: black;
+            border: 2px solid green;
+        }
+        
+        .btn2 {
+            padding: 12px 20px;
+            background: hwb(27 1% 7%);
+            border: none;
+            color: white;
+            border-radius: 30px;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all .3s ease-in;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="font-family: lucida console;">
+        &nbsp; &nbsp;
+        <a style="font-size: 400%;text-align:left; ;margin-left: 150px;">𝑺<span class="o" style="color: hwb(27 35% 7%);">𝑶</span>𝑪𝑰<span class="o" style="color: hwb(27 35% 7%);">𝑨</span>𝑳𝑺</a>
+        </h1>
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=" C:\Users\SHRI PRAVEEN S.M\Desktop\socials\index.html " class="btn2">SIGN OUT</a>
+    </div>
+
+    <div style="position:relative;left:6%">
+        <table>
+            <tr>
+                <td>
+                    <table>
+                        <tr class="image-div">
+                            <td>
+                                <div>
+                                    <div class="zoom">
+                                        <a href="athmika.html" target="_blank"><img src="athmika.webp" style="height: 300px;"></a>
+                                    </div>
+                                    <div class="desc" style="font-family:lucida console; color: black;">AATHMIKA , 24 <span style="background-color:rgb(111, 166, 211);color: aliceblue;">&nbsp;&#10003;&nbsp;</span></div>
+                                </div>
+                            </td>
+                            <td style="font-family:lucida console;font-size: large;">
+                                &nbsp; &nbsp; College
+                                <i class="fa-solid fa-graduation-cap" style="color: black;"></i>
+                                <br>
+                                <br> &nbsp; &nbsp; Chennai
+                                <i class="fa-solid fa-location-dot" style="color: red;"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr class="image-div">
+                            <td>
+                                <div>
+                                    <div class="zoom">
+                                        <a href="anushka.html" target="_blank"><img src="anushka sharma.jpg" style="height:275px; border-radius: 10px; width: 250px;"></a>
+                                    </div>
+                                    <div class="desc" style="font-family:lucida console; color: black;">ANUSHKA SHARMA , 26 <span style="background-color:rgb(111, 166, 211);color: aliceblue;">&nbsp;&#10003;&nbsp;</span></div>
+                                </div>
+                            </td>
+                            <td style="font-family:lucida console;font-size: large;">
+
+
+
+                                College
+                                <i class="fa-solid fa-graduation-cap" style="color: black;"></i>
+                                <br>
+                                <br> Delhi
+                                <i class="fa-solid fa-location-dot" style="color: red;"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr class="image-div">
+                            <td>
+                                <div>
+                                    <div class="zoom">
+                                        <a href="deepika.html" target="_blank"><img src="Deepika Padukone.jpg" style="height:300px;width: 200px;"></a>
+                                    </div>
+                                    <div class="desc" style="font-family:lucida console; color: black;">DEEPIKA , 25 <span style="background-color:rgb(111, 166, 211);color: aliceblue;">&nbsp;&#10003;&nbsp;</span></div>
+                                </div>
+                            </td>
+                            <td style="font-family:lucida console;font-size: large;">
+                                &nbsp; &nbsp; College
+                                <i class="fa-solid fa-graduation-cap" style="color: black;"></i>
+                                <br>
+                                <br> &nbsp; &nbsp; Punjab
+                                <i class="fa-solid fa-location-dot" style="color: red;"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr class="image-div">
+                            <td>
+                                <div>
+                                    <div class="zoom">
+                                        <a href="kalyani.html" target="_blank"><img src="kalyani priyadarshan.jpg" style="height: 300px" width="350px"></a>
+                                    </div>
+                                    <div class="desc" style="font-family:lucida console; color: bLACK;">KALYANI , 29 <span style="background-color:rgb(111, 166, 211);color: aliceblue;">&nbsp;&#10003;&nbsp;</span></div>
+                                </div>
+                            </td>
+                            <td style="font-family:lucida console;font-size: large;">
+                                &nbsp; &nbsp; Work
+                                <i class="fa-solid fa-briefcase" style="color: black;"></i>
+                                <br>
+                                <br> &nbsp; &nbsp; Chennai
+                                <i class="fa-solid fa-location-dot" style="color: red;"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr class="image-div">
+                            <td>
+                                <div>
+                                    <div class="zoom">
+                                        <a href="megha.html" target="_blank"><img src="megha akash.jpg" style="height: 300px;width: 250px;"></a>
+                                    </div>
+                                    <div class="desc" style="font-family:lucida console; color:black;">MEGHA AKASH , 23 <span style="background-color:rgb(111, 166, 211); color: aliceblue;">&nbsp;&#10003;&nbsp;</span></div>
+                                </div>
+                            </td>
+                            <td style="font-family:lucida console;font-size: large;">
+                                &nbsp; College
+                                <i class="fa-solid fa-graduation-cap" style="color: black;"></i>
+                                <br>
+                                <br> &nbsp; Coimbatore
+                                <i class="fa-solid fa-location-dot" style="color: red;"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr class="image-div">
+                            <td>
+                                <div>
+                                    <div class="zoom">
+                                        <a href="pooja.html" target="_blank"><img src="pooja hedge.jpg" style="height: 300px; width: 250px;"></a>
+                                    </div>
+                                    <div class="desc" style="font-family:lucida console; color: black;">POOJA HEDGE , 24 <span style="background-color:rgb(111, 166, 211);color: aliceblue;">&nbsp;&#10003;&nbsp;</span></div>
+                                </div>
+                            </td>
+                            <td style="font-family:lucida console;font-size: large;">
+                                &nbsp; College
+                                <i class="fa-solid fa-graduation-cap" style="color: black;"></i>
+                                <br>
+                                <br> &nbsp; Hyderabad
+                                <i class="fa-solid fa-location-dot" style="color: red;"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr class="image-div">
+                            <td>
+                                <div>
+                                    <div class="zoom">
+                                        <a href="rashmika.html" target="_blank"><img src="rasmika mandanna.webp" style="height: 300px; width: 200px;"></a>
+                                    </div>
+                                    <div class="desc" style="font-family:lucida console; color: black;">RASHMIKA , 23 <span style="background-color:rgb(111, 166, 211); color: aliceblue;">&nbsp;&#10003;&nbsp;</span></div>
+                                </div>
+                            </td>
+                            <td style="font-family:lucida console;font-size: large;">
+                                &nbsp; College
+                                <i class="fa-solid fa-graduation-cap" style="color: black;"></i>
+                                <br>
+                                <br> &nbsp; Chennai
+                                <i class="fa-solid fa-location-dot" style="color: red;"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr class="image-div">
+                            <td>
+                                <div>
+                                    <div class="zoom">
+                                        <a href="samantha.html" target="_blank"><img src="samantha.webp" style="height: 300px ;width: 250px;"></a>
+                                    </div>
+                                    <div class="desc" style="font-family:lucida console; color: black;">SAMANTHA ,31 <span style="background-color:rgb(111, 166, 211); color: aliceblue;">&nbsp;&#10003;&nbsp;</span></div>
+                                </div>
+                            </td>
+                            <td style="font-family:lucida console;font-size: large;">
+                                &nbsp; &nbsp; Work
+                                <i class="fa-solid fa-briefcase" style="color: black;"></i>
+                                <br>
+                                <br> &nbsp; &nbsp; Mumbai
+                                <i class="fa-solid fa-location-dot" style="color: red;"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr class="image-div">
+                            <td>
+                                <div>
+                                    <div class="zoom">
+                                        <a href="sara.html" target="_blank"><img src="Sara_Ali_Khan.jpg" style="height: 300px; width: 250px;"></a>
+                                    </div>
+                                    <div class="desc" style="font-family:lucida console; color: black;">SARA ALI KHAN ,21 <span style="background-color:rgb(111, 166, 211); color: aliceblue;">&nbsp;&#10003;&nbsp;</span></div>
+                                </div>
+    </div>
+    </td>
+    <td style="font-family:lucida console;font-size: large;">
+        &nbsp; Work
+        <i class="fa-solid fa-briefcase" style="color:black;"></i>
+        <br>
+        <br> &nbsp; Chennai
+        <i class="fa-solid fa-location-dot" style="color: red;"></i>
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+</body>
+
+</html>
